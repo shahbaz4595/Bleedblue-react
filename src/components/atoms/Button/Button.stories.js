@@ -1,12 +1,34 @@
 import Button from './Button'
-import { action, actions } from '@storybook/addon-actions'
+import { action } from '@storybook/addon-actions'
 
 export default {
   title: 'Atoms/Button',
   component: Button,
   args: {
     children: 'Button',
+    size: 'medium',
+    disabled: false,
     onClick: action('click handler'),
+  },
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'success', 'danger'],
+      control: { type: 'select' },
+      defaultValue: 'primary',
+      description: 'Type of button',
+    },
+    size: {
+      options: ['small', 'medium', 'large'],
+      control: { type: 'radio' },
+      defaultValue: 'medium',
+      description: 'Size of the button',
+    },
+    disabled: {
+      options: [true, false],
+      control: { type: 'boolean' },
+      defaultValue: 'false',
+      description: 'Should the button be disabled?',
+    },
   },
 }
 

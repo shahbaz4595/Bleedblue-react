@@ -1,8 +1,12 @@
 import Input from './Input'
+import { action } from '@storybook/addon-actions'
 
 export default {
   title: 'Atoms/Input',
   component: Input,
+  args: {
+    onChange: action('change handler'),
+  },
 }
 
 const Template = (args) => <Input {...args} />

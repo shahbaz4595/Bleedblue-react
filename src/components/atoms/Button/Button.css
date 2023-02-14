@@ -17,9 +17,29 @@
 }
 
 .btn-success {
-  background-color: #0dca26;
+  background-color: #01800b;
 }
 
 .btn-danger {
-  background-color: #ee4b2b;
+  background-color: #e81905;
+}
+
+.btn-small {
+  font-size: 0.8rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.btn-medium {
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+}
+
+.btn-large {
+  font-size: 1.3rem;
+  padding: 0.9rem 1.8rem;
+}
+
+.btn-disabled {
+  background-color: gray;
+  cursor: not-allowed;
 }
