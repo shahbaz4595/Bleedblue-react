@@ -1,8 +1,8 @@
-import Button from './Button'
+import Button from '../Button'
 import { action } from '@storybook/addon-actions'
 
 export default {
-  title: 'Atoms/Button',
+  title: 'Components/Button',
   component: Button,
   args: {
     children: 'Button',
