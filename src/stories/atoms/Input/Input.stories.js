@@ -1,4 +1,4 @@
-import Input from './Input'
+import Input from '../../../components/atoms/Input/Input'
 import { action } from '@storybook/addon-actions'
 
 export default {

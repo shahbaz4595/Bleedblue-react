@@ -1,5 +1,5 @@
 import React from 'react'
-import Alert from '../Alert'
+import Alert from '../../../components/atoms/Alert/Alert'
 import { action } from '@storybook/addon-actions'
 
 export default {

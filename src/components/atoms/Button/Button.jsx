@@ -8,6 +8,7 @@ const Button = (props) => {
     disabled = false,
     children,
     onClick,
+    className = '',
     ...rest
   } = props
 
@@ -16,7 +17,7 @@ const Button = (props) => {
       onClick={onClick}
       className={`btn btn-${variant} btn-${size} btn-${
         disabled ? `disabled` : 'enabled'
-      }`}
+      } className`}
       aria-label={`${variant} button`}
       disabled={disabled}
       {...rest}
