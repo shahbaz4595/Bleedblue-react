@@ -1,5 +1,5 @@
 import React from 'react'
-import Alert from '../../../components/atoms/Alert/Alert'
+import Alert from '../../../ui/components/Alert/Alert'
 import { action } from '@storybook/addon-actions'
 
 export default {
@@ -21,6 +21,9 @@ export default {
     },
     children: {
       description: 'Text to be displayed inside the component',
+    },
+    className: {
+      control: { type: 'text' },
     },
   },
 }

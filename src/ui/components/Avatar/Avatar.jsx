@@ -1,4 +1,4 @@
-import Image from '../Image/Image'
+import Image from '../../fragments/Image/Image'
 import React from 'react'
 import './Avatar.css'
 
@@ -9,7 +9,7 @@ const Avatar = ({
   className = '',
   ...rest
 }) => {
-  className = `avatar avatar-${size} ${className}`
+  className = `avatar avatar-${size} ${className}`.trim()
   return (
     <div class={className}>
       <Image

@@ -1,4 +1,4 @@
-import Center from '../src/components/atoms/Center/Center'
+import Center from '../src/ui/fragments/Center/Center'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

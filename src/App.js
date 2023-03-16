@@ -1,12 +1,8 @@
 import './App.css'
-import Badge from './components/atoms/Badge/Badge'
+import Badge from './components/molecules/Badge/Badge'
 
 function App() {
-  return (
-    <div className='App'>
-      <Badge />
-    </div>
-  )
+  return <div className='App'></div>
 }
 
 export default App

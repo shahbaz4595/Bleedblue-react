@@ -1,9 +1,12 @@
 import React from 'react'
-import Avatar from '../../../components/atoms/Avatar/Avatar'
+import Avatar from '../../../ui/components/Avatar/Avatar'
 
 export default {
   title: 'Components/Avatar',
   component: Avatar,
+  args: {
+    className: '',
+  },
   argTypes: {
     imgSource: {
       control: { type: 'text' },
@@ -17,6 +20,9 @@ export default {
       options: ['xl', 'lg', 'md', 'sm', 'xs'],
       control: { type: 'select' },
       description: 'Porvide the alternate text for accessibility',
+    },
+    className: {
+      control: { type: 'text' },
     },
   },
 }

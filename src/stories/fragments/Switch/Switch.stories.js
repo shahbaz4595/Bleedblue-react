@@ -1,9 +1,9 @@
 import React from 'react'
-import Switch from '../../../components/atoms/Switch/Switch'
+import Switch from '../../../ui/fragments/Switch/Switch'
 import { action } from '@storybook/addon-actions'
 
 export default {
-  title: 'Components/Switch',
+  title: 'Fragments/Switch',
   component: Switch,
   args: {
     onSwitch: action('click handler'),
@@ -11,9 +11,12 @@ export default {
   argTypes: {
     type: {
       options: ['switch', 'theme'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
       defaultValue: 'switch',
       description: 'Type of switch',
+    },
+    className: {
+      control: 'text',
     },
   },
 }

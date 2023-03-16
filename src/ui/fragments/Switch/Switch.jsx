@@ -1,7 +1,7 @@
 import './Switch.css'
 
 const Switch = ({ type = 'theme', onSwitch, className = '', ...rest }) => {
-  className = `chk-toggle ${className}`
+  className = `chk-toggle ${className}`.trim()
   return (
     <label className='toggle-switch'>
       <input

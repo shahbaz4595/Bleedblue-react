@@ -1,11 +1,20 @@
-import Input from '../../../components/atoms/Input/Input'
+import Input from '../../../ui/fragments/Input/Input'
 import { action } from '@storybook/addon-actions'
 
 export default {
-  title: 'Components/Input',
+  title: 'Fragments/Input',
   component: Input,
   args: {
     onChange: action('change handler'),
+  },
+  argTypes: {
+    className: {
+      control: 'text',
+    },
+    variant: {
+      control: 'select',
+      options: ['text', 'email', 'password', 'tel', 'date'],
+    },
   },
 }
 

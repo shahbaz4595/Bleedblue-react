@@ -1,8 +1,8 @@
-import Button from '../../../components/atoms/Button/Button'
+import Button from '../../../ui/fragments/Button/Button'
 import { action } from '@storybook/addon-actions'
 
 export default {
-  title: 'Components/Button',
+  title: 'Fragments/Button',
   component: Button,
   args: {
     children: 'Button',
@@ -28,6 +28,9 @@ export default {
       control: { type: 'boolean' },
       defaultValue: 'false',
       description: 'Should the button be disabled?',
+    },
+    className: {
+      control: { type: 'text' },
     },
   },
 }

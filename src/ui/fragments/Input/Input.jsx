@@ -8,7 +8,7 @@ const Input = ({
   onChange,
   ...rest
 }) => {
-  className = `input ${className}`
+  className = `input ${className}`.trim()
   return (
     <input
       onChange={onChange}

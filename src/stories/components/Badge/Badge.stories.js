@@ -1,8 +1,11 @@
-import Badge from '../../../components/atoms/Badge/Badge'
+import Badge from '../../../ui/components/Badge/Badge'
 
 export default {
   title: 'Components/Badge',
   component: Badge,
+  args: {
+    className: '',
+  },
   argTypes: {
     type: {
       options: ['basic', 'avatar-badge', 'logo-badge'],

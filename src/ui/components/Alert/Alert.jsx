@@ -9,7 +9,7 @@ const Alert = ({
   className = '',
   ...rest
 }) => {
-  className = `alert alert-${variant} alert-${size} ${className}`
+  className = `alert alert-${variant} alert-${size} ${className}`.trim()
   return (
     <div className={className} {...rest}>
       <div> {children}</div>
