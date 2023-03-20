@@ -1,5 +1,5 @@
 import React from 'react'
-import './Alert.css'
+import style from './Alert.module.css'
 
 const Alert = ({
   variant = 'primary',
@@ -9,12 +9,13 @@ const Alert = ({
   className = '',
   ...rest
 }) => {
-  className = `alert alert-${variant} alert-${size} ${className}`.trim()
+  className =
+    `${style.alert} ${style[variant]} ${style[size]} ${className}`.trim()
   return (
     <div className={className} {...rest}>
       <div> {children}</div>
       <button
-        className='close-alert'
+        className={style.close}
         onClick={onClose}
         aria-label='close alert'
       >

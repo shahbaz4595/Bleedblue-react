@@ -1,5 +1,5 @@
 import React from 'react'
-import './Button.css'
+import style from './Button.module.css'
 
 const Button = ({
   variant = 'primary',
@@ -10,9 +10,9 @@ const Button = ({
   className = '',
   ...rest
 }) => {
-  className = `btn btn-${variant} btn-${size} btn-${
-    disabled ? `disabled` : 'enabled'
-  } className`.trim()
+  className = `${style.btn} ${style[variant]} ${style[size]} ${
+    disabled ? style.disabled : ''
+  } ${className}`.trim()
   return (
     <button
       onClick={onClick}

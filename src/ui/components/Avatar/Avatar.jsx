@@ -1,6 +1,6 @@
 import Image from '../../fragments/Image/Image'
 import React from 'react'
-import './Avatar.css'
+import style from './Avatar.module.css'
 
 const Avatar = ({
   size = 'md',
@@ -9,14 +9,14 @@ const Avatar = ({
   className = '',
   ...rest
 }) => {
-  className = `avatar avatar-${size} ${className}`.trim()
+  className = `${style.avatar} ${style[size]} ${className}`.trim()
   return (
-    <div class={className}>
+    <div className={className}>
       <Image
         imgSource={imgSource}
         imgCaption={imgCaption}
         size={size}
-        className='img-round'
+        type='round'
         {...rest}
       />
     </div>

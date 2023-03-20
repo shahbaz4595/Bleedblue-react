@@ -7,39 +7,39 @@
   cursor: pointer;
 }
 
-.btn-primary {
+.primary {
   background-color: #1b5cc1;
 }
 
-.btn-secondary {
+.secondary {
   background-color: #e7e7e7;
   color: black;
 }
 
-.btn-success {
+.success {
   background-color: #01800b;
 }
 
-.btn-danger {
+.danger {
   background-color: #e81905;
 }
 
-.btn-small {
+.small {
   font-size: 0.8rem;
   padding: 0.5rem 1.2rem;
 }
 
-.btn-medium {
+.medium {
   font-size: 1rem;
   padding: 0.7rem 1.5rem;
 }
 
-.btn-large {
+.large {
   font-size: 1.3rem;
   padding: 0.9rem 1.8rem;
 }
 
-.btn-disabled {
+.disabled {
   background-color: gray;
   cursor: not-allowed;
 }

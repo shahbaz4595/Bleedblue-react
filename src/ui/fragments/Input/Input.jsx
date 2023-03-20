@@ -1,5 +1,5 @@
 import React from 'react'
-import './Input.css'
+import style from './Input.module.css'
 
 const Input = ({
   variant = 'text',
@@ -8,7 +8,7 @@ const Input = ({
   onChange,
   ...rest
 }) => {
-  className = `input ${className}`.trim()
+  className = `${style.input} ${className}`.trim()
   return (
     <input
       onChange={onChange}

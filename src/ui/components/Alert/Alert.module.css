@@ -11,41 +11,41 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.alert-primary {
+.primary {
   background-color: #1b5cc1;
 }
 
-.alert-secondary {
+.secondary {
   background-color: #e7e7e7;
   color: black;
 }
 
-.alert-success {
+.success {
   background-color: #01800b;
 }
 
-.alert-danger {
+.danger {
   background-color: #e81905;
 }
 
-.alert-warning {
+.warning {
   background-color: rgb(250, 250, 124);
   color: black;
 }
 
-.alert-secondary .close-alert,
-.alert-warning .close-alert {
+.secondary .close,
+.warning .close {
   color: black;
 }
 
-.close-alert {
+.close {
   cursor: pointer;
   background-color: transparent;
   border: none;
   color: white;
 }
 
-.close-alert:hover {
+.close:hover {
   background-color: aliceblue;
   border-radius: 50%;
   height: 20px;
@@ -53,12 +53,12 @@
   color: black;
 }
 
-.alert-small {
+.small {
   padding: 0.8rem 1rem;
   font-size: 0.8rem;
 }
 
-.alert-large {
+.large {
   padding: 1.5rem 2rem;
   font-size: 1.5rem;
 }

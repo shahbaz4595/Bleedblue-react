@@ -1,8 +1,12 @@
 import './App.css'
-import Badge from './components/molecules/Badge/Badge'
+import Button from './ui/fragments/Button/Button'
 
 function App() {
-  return <div className='App'></div>
+  return (
+    <div className='App'>
+      <Button className='something'>Click me</Button>
+    </div>
+  )
 }
 
 export default App

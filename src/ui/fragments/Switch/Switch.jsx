@@ -1,17 +1,17 @@
-import './Switch.css'
+import style from './Switch.module.css'
 
 const Switch = ({ type = 'theme', onSwitch, className = '', ...rest }) => {
-  className = `chk-toggle ${className}`.trim()
+  className = `${style['chk-input']} ${className}`.trim()
   return (
-    <label className='toggle-switch'>
+    <label className={style['toggle-switch']}>
       <input
         type='checkbox'
         className={className}
         {...rest}
         onChange={onSwitch}
       />
-      <div className={`slider-container ${type}`}>
-        <span className='slider'></span>
+      <div className={`${style['slider-container']} ${style[type]}`}>
+        <span className={style.slider}></span>
       </div>
     </label>
   )
