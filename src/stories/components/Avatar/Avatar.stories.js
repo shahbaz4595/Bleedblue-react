@@ -18,7 +18,7 @@ export default {
     },
     size: {
       options: ['xl', 'lg', 'md', 'sm', 'xs'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
       description: 'Porvide the alternate text for accessibility',
     },
     variant: {

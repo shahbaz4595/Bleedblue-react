@@ -6,7 +6,7 @@ export default {
   argTypes: {
     type: {
       options: ['regular', 'round'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
     },
   },
 }

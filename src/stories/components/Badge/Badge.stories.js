@@ -9,7 +9,7 @@ export default {
   argTypes: {
     type: {
       options: ['basic-badge', 'avatar-badge', 'icon-badge'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
     },
     variant: {
       options: ['primary', 'secondary', 'success', 'danger'],
@@ -17,7 +17,7 @@ export default {
     },
     size: {
       options: ['xl', 'lg', 'md', 'sm', 'xs'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
     },
     icon: {
       options: ['email', 'bell', 'cart'],

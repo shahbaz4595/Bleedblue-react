@@ -10,7 +10,7 @@ export default {
     },
     size: {
       options: ['xs', 'sm', 'md', 'lg', 'xl'],
-      control: { type: 'select' },
+      control: { type: 'radio' },
     },
   },
 }
