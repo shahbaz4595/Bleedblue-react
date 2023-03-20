@@ -19,7 +19,7 @@ const Alert = ({
         onClick={onClose}
         aria-label='close alert'
       >
-        x
+        &times;
       </button>
     </div>
   )

@@ -7,9 +7,11 @@ const Avatar = ({
   imgSource,
   imgCaption,
   className = '',
+  variant = '',
   ...rest
 }) => {
-  className = `${style.avatar} ${style[size]} ${className}`.trim()
+  className =
+    `${style.avatar} ${style[size]} ${style[variant]} ${className}`.trim()
   return (
     <div className={className}>
       <Image

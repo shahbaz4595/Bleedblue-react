@@ -12,7 +12,7 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'success', 'danger'],
+      options: ['primary', 'secondary', 'success', 'danger', 'inverse'],
       control: { type: 'select' },
       defaultValue: 'primary',
       description: 'Type of button',
@@ -55,4 +55,9 @@ Success.args = {
 export const Danger = Template.bind({})
 Danger.args = {
   variant: 'danger',
+}
+
+export const Inverse = Template.bind({})
+Inverse.args = {
+  variant: 'inverse',
 }

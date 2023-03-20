@@ -8,7 +8,7 @@ export default {
   },
   argTypes: {
     type: {
-      options: ['basic', 'avatar-badge', 'logo-badge'],
+      options: ['basic-badge', 'avatar-badge', 'icon-badge'],
       control: { type: 'select' },
     },
     variant: {
@@ -19,14 +19,21 @@ export default {
       options: ['xl', 'lg', 'md', 'sm', 'xs'],
       control: { type: 'select' },
     },
+    icon: {
+      options: ['email', 'bell', 'cart'],
+      control: { type: 'select' },
+    },
+    count: {
+      control: { type: 'number', min: 0, max: 1000 },
+    },
   },
 }
 
 const Template = (args) => <Badge {...args} />
 
-export const Basic = Template.bind()
-Basic.args = {
-  type: 'basic',
+export const BasicBadge = Template.bind()
+BasicBadge.args = {
+  type: 'basic-badge',
   children: 'Dummy Text',
   variant: 'primary',
 }
@@ -41,7 +48,7 @@ AvatarBadge.args = {
   variant: 'primary',
 }
 
-export const LogoBadge = Template.bind()
-LogoBadge.args = {
-  type: 'logo-badge',
+export const IconBadge = Template.bind()
+IconBadge.args = {
+  type: 'icon-badge',
 }

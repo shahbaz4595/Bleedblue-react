@@ -1,6 +1,21 @@
 .avatar {
-  border: 3px solid #1b5cc1;
   border-radius: 50%;
+}
+
+.avatar.primary {
+  border: 3px solid #1b5cc1;
+}
+
+.avatar.secondary {
+  border: 3px solid #e7e7e7;
+}
+
+.avatar.success {
+  border: 3px solid #01800b;
+}
+
+.avatar.danger {
+  border: 3px solid #e81905;
 }
 
 .xl {

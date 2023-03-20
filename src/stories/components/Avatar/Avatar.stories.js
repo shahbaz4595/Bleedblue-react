@@ -21,6 +21,10 @@ export default {
       control: { type: 'select' },
       description: 'Porvide the alternate text for accessibility',
     },
+    variant: {
+      options: ['primary', 'secondary', 'success', 'danger'],
+      control: { type: 'select' },
+    },
     className: {
       control: { type: 'text' },
     },
