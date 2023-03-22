@@ -20,7 +20,7 @@ export default {
       control: { type: 'radio' },
     },
     icon: {
-      options: ['email', 'bell', 'cart'],
+      options: ['email', 'bell', 'cart', 'heart'],
       control: { type: 'select' },
     },
     count: {

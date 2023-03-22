@@ -93,35 +93,35 @@
 .icon-badge.xl {
   width: 35px;
   height: 35px;
-  right: 1px;
+  right: -3px;
   top: 2px;
 }
 
 .icon-badge.lg {
   width: 30px;
   height: 30px;
-  right: 1px;
+  right: -3px;
   top: 2px;
 }
 
 .icon-badge.md {
   width: 25px;
   height: 25px;
-  right: 1px;
+  right: -3px;
   top: 2px;
 }
 
 .icon-badge.sm {
   width: 20px;
   height: 20px;
-  right: 1px;
+  right: -3px;
   top: 2px;
 }
 
 .icon-badge.xs {
   width: 14px;
   height: 14px;
-  right: -1px;
+  right: -3px;
   top: -2px;
   font-size: 0.5rem;
 }

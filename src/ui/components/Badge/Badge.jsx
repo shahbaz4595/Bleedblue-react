@@ -13,11 +13,11 @@ const Badge = ({
   count = 0,
   className = '',
   icon,
-  ...props
+  ...rest
 }) => {
   className = `${style['badge-container']} ${className}`
   return (
-    <div className={className} {...props}>
+    <div className={className} {...rest}>
       {type === 'basic-badge' && (
         <span className={`${style[`basic-badge`]} ${style[variant]}`}>
           {children}

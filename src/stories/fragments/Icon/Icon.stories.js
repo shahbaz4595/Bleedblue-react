@@ -5,7 +5,17 @@ export default {
   component: Icon,
   argTypes: {
     type: {
-      options: ['email', 'bell', 'cart', 'search'],
+      options: [
+        'email',
+        'bell',
+        'cart',
+        'search',
+        'heart',
+        'heart-filled',
+        'star',
+        'star-filled',
+        'star-half',
+      ],
       control: { type: 'select' },
     },
     size: {
@@ -35,4 +45,29 @@ Cart.args = {
 export const Search = Template.bind({})
 Search.args = {
   type: 'search',
+}
+
+export const Heart = Template.bind({})
+Heart.args = {
+  type: 'heart',
+}
+
+export const HeartFilled = Template.bind({})
+HeartFilled.args = {
+  type: 'heart-filled',
+}
+
+export const Star = Template.bind({})
+Star.args = {
+  type: 'star',
+}
+
+export const StarFilled = Template.bind({})
+StarFilled.args = {
+  type: 'star-filled',
+}
+
+export const StarHalf = Template.bind({})
+StarHalf.args = {
+  type: 'star-half',
 }
