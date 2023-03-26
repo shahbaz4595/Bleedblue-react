@@ -53,11 +53,19 @@
   height: 20px;
   width: 20px;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .small {
-  padding: 0.8rem 1rem;
+  padding: 1rem 1rem;
   font-size: 0.8rem;
+}
+
+.small .close:hover {
+  height: 12px;
+  width: 12px;
 }
 
 .large {
