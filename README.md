@@ -1,6 +1,10 @@
 <style>
+
+    ul {
+        list-style-type:none;
+    }
     .tag {
-        backround-color: orange;
+        background-color: orange;
         padding: 1rem 2rem;
         border-radius: 40px;
     }
@@ -17,7 +21,6 @@
     <li class='tag'>React</li>
     <li class='tag'>Storybook</li>
 </ul>
-JavaScript, React, Storybook
 
 ### Live link:
 
