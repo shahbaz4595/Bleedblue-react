@@ -4,11 +4,9 @@
 
 ### Tech Stack:
 
-<ul>
-    <li class='tag'>JavaScript</li>
-    <li class='tag'>React</li>
-    <li class='tag'>Storybook</li>
-</ul>
+- JavaScript
+- React
+- Storybook
 
 ### Live link:
 
