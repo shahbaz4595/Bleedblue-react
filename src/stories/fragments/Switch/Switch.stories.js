@@ -10,10 +10,9 @@ export default {
   },
   argTypes: {
     type: {
-      options: ['switch', 'theme'],
-      control: { type: 'radio' },
-      defaultValue: 'switch',
-      description: 'Type of switch',
+      table: {
+        disable: true,
+      },
     },
     className: {
       control: 'text',

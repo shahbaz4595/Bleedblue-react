@@ -17,9 +17,9 @@ export default {
       description: 'Porvide the alternate text for accessibility',
     },
     size: {
-      options: ['xl', 'lg', 'md', 'sm', 'xs'],
-      control: { type: 'radio' },
-      description: 'Porvide the alternate text for accessibility',
+      table: {
+        disable: true,
+      },
     },
     variant: {
       options: ['primary', 'secondary', 'success', 'danger'],

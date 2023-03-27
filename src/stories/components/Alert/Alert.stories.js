@@ -11,9 +11,9 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'success', 'danger', 'warning'],
-      control: { type: 'select' },
-      description: 'Type of alert',
+      table: {
+        disable: true,
+      },
     },
     size: {
       options: ['small', 'medium', 'large'],

@@ -5,18 +5,9 @@ export default {
   component: Icon,
   argTypes: {
     type: {
-      options: [
-        'email',
-        'bell',
-        'cart',
-        'search',
-        'heart',
-        'heart-filled',
-        'star',
-        'star-filled',
-        'star-half',
-      ],
-      control: { type: 'select' },
+      table: {
+        disable: true,
+      },
     },
     size: {
       options: ['xs', 'sm', 'md', 'lg', 'xl'],

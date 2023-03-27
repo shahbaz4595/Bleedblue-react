@@ -12,8 +12,9 @@ export default {
       control: 'text',
     },
     variant: {
-      control: 'select',
-      options: ['text', 'email', 'password', 'tel', 'date'],
+      table: {
+        disable: true,
+      },
     },
   },
 }

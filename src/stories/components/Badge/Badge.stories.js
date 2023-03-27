@@ -8,8 +8,9 @@ export default {
   },
   argTypes: {
     type: {
-      options: ['basic-badge', 'avatar-badge', 'icon-badge'],
-      control: { type: 'radio' },
+      table: {
+        disable: true,
+      },
     },
     variant: {
       options: ['primary', 'secondary', 'success', 'danger'],

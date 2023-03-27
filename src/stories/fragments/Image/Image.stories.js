@@ -5,8 +5,9 @@ export default {
   component: Image,
   argTypes: {
     type: {
-      options: ['regular', 'round'],
-      control: { type: 'radio' },
+      table: {
+        disable: true,
+      },
     },
   },
 }

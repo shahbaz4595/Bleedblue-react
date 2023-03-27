@@ -12,10 +12,9 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'success', 'danger', 'inverse'],
-      control: { type: 'select' },
-      defaultValue: 'primary',
-      description: 'Type of button',
+      table: {
+        disable: true,
+      },
     },
     size: {
       options: ['small', 'medium', 'large'],
