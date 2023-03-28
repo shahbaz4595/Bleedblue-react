@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Button, Image } from '../../bleedBlueReact'
+import { Button, BBImage } from '../../bleedBlueReact'
 import style from './Navbar.module.css'
 
 const Navbar = ({ brandLogoURL, brandTitle = 'Brand Name' }) => {
@@ -9,7 +9,7 @@ const Navbar = ({ brandLogoURL, brandTitle = 'Brand Name' }) => {
     <nav className={style.navbar}>
       <div className={style.branding}>
         <div className={style.brandLogo}>
-          <Image
+          <BBImage
             imgCaption={brandTitle}
             imgSource={brandLogoURL}
             type='regular'
