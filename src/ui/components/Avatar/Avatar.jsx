@@ -1,4 +1,4 @@
-import Image from '../../fragments/Image/Image'
+import BBImage from '../../fragments/Image/Image'
 import React from 'react'
 import style from './Avatar.module.css'
 
@@ -14,7 +14,7 @@ const Avatar = ({
     `${style.avatar} ${style[size]} ${style[variant]} ${className}`.trim()
   return (
     <div className={className}>
-      <Image
+      <BBImage
         imgSource={imgSource}
         imgCaption={imgCaption}
         size={size}

@@ -1,6 +1,6 @@
 import style from './Image.module.css'
 
-export default Image = ({
+const BBImage = ({
   type = 'regular',
   imgSource,
   imgCaption,
@@ -14,3 +14,5 @@ export default Image = ({
     <img src={imgSource} alt={imgCaption} className={className} {...rest} />
   )
 }
+
+export default BBImage
