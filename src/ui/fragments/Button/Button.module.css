@@ -1,3 +1,5 @@
+@import url(../../style.css);
+
 .btn {
   border: none;
   border-radius: 50px;
@@ -7,42 +9,50 @@
 }
 
 .primary {
-  background-color: #1b5cc1;
+  background-color: var(--bb-primary-color);
+  border: 1px solid var(--bb-primary-color);
 }
 
 .primary:hover {
-  background-color: #4981da;
+  background-color: var(--bb-primary-light-color);
+  border: 1px solid var(--bb-primary-light-color);
 }
 
 .secondary {
-  background-color: #e7e7e7;
+  background-color: var(--bb-secondary-color);
+  border: 1px solid var(--bb-secondary-color);
   color: black;
 }
 
 .secondary:hover {
-  background-color: #ccc9c9;
+  background-color: var(--bb-secondary-light-color);
+  border: 1px solid var(--bb-secondary-light-color);
   color: black;
 }
 
 .success {
-  background-color: #01800b;
+  background-color: var(--bb-success-color);
+  border: 1px solid var(--bb-success-color);
 }
 
 .success:hover {
-  background-color: #15b723;
+  background-color: var(--bb-success-light-color);
+  border: 1px solid var(--bb-success-light-color);
 }
 
 .danger {
   background-color: #e81905;
+  border: 1px solid #e81905;
 }
 
 .danger:hover {
   background-color: #f34a3a;
+  border: 1px solid #f34a3a;
 }
 
 .inverse {
   background-color: transparent;
-  border: 3px solid #1b5cc1;
+  border: 1px solid #1b5cc1;
   color: #1b5cc1;
 }
 

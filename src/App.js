@@ -1,10 +1,10 @@
 import './App.css'
-import Button from './ui/fragments/Button/Button'
+import Navbar from './ui/components/Navbar/Navbar'
 
 function App() {
   return (
     <div className='App'>
-      <Button className='something'>Click me</Button>
+      <Navbar />
     </div>
   )
 }

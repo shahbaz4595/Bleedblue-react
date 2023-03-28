@@ -2,14 +2,15 @@
 
 :root {
   --bb-primary-color: #1b5cc1;
-  --bb-primary-light-color: #81c5f1;
+  --bb-primary-light-color: #0d98f5;
   --bb-success-color: #16815c;
-  --bb-success-light-color: #84f1c9;
+  --bb-success-light-color: #0deb99;
   --bb-danger-color: #aa0e0e;
   --bb-danger-light-color: #ff5757;
   --bb-warning-color: rgb(187, 187, 16);
   --bb-warning-light-color: rgb(243, 243, 136);
-  --bb-secondary-color: #2c7ae0;
+  --bb-secondary-color: #e7e7e7;
+  --bb-secondary-light-color: #ccc9c9;
   --bb-dark-color: #393734;
   --bb-dark-secondary-color: #534f49;
   --bb-inactive-color: #cacaca;
