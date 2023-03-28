@@ -6,5 +6,6 @@ import Switch from './fragments/Switch/Switch'
 import Alert from './components/Alert/Alert'
 import Avatar from './components/Avatar/Avatar'
 import Badge from './components/Badge/Badge'
+import Navbar from './components/Navbar/Navbar'
 
-export { Button, Image, Icon, Input, Switch, Alert, Avatar, Badge }
+export { Button, Image, Icon, Input, Switch, Alert, Avatar, Badge, Navbar }
