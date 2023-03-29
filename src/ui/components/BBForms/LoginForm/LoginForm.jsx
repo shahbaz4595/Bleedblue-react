@@ -12,8 +12,11 @@ const LoginForm = ({ onLogin, onAlternateLinkClick }) => {
   }
 
   const checkFormValidity = () => {
-    if (email && email.includes('@') && password && password.length > 7)
+    if (email && email.includes('@') && password && password.length > 7) {
       setIsFormValid(true)
+    } else {
+      setIsFormValid(false)
+    }
   }
   return (
     <form className={style['login-form']} onSubmit={handleLogin}>

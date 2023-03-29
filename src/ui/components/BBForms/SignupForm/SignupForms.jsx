@@ -29,6 +29,8 @@ const SignupForm = ({ onSignup, onAlternateLinkClick }) => {
       lastName
     ) {
       setIsFormValid(true)
+    } else {
+      setIsFormValid(false)
     }
   }
 
