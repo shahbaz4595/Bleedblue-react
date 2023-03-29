@@ -82,3 +82,10 @@
   cursor: not-allowed;
   color: white;
 }
+
+.link {
+  background-color: transparent;
+  border: none;
+  color: var(--bb-primary-color);
+  text-decoration: underline;
+}

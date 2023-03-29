@@ -1,3 +1,5 @@
+@import url('../../style.css');
+
 .input {
   min-width: 200px;
   min-height: 2rem;
@@ -8,5 +10,5 @@
 }
 
 .input:focus {
-  outline: 2px solid #6a9ae6;
+  outline: 2px solid var(--bb-primary-color);
 }

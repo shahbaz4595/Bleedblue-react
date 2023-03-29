@@ -60,3 +60,8 @@ export const Inverse = Template.bind({})
 Inverse.args = {
   variant: 'inverse',
 }
+
+export const Link = Template.bind({})
+Link.args = {
+  variant: 'link',
+}

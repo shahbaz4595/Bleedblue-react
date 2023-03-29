@@ -1,38 +1,34 @@
-import { useNavigate } from 'react-router-dom'
 import { Button, BBImage } from '../../bleedBlueReact'
 import style from './Navbar.module.css'
 
-const Navbar = ({ brandLogoURL, brandTitle = 'Brand Name' }) => {
-  const navigate = useNavigate()
-
+const Navbar = ({
+  brandLogoURL,
+  brandTitle = 'Brand Name',
+  onLoginClick,
+  onSignUpClick,
+}) => {
   return (
     <nav className={style.navbar}>
       <div className={style.branding}>
-        <div className={style.brandLogo}>
-          <BBImage
-            imgCaption={brandTitle}
-            imgSource={brandLogoURL}
-            type='regular'
-          />
-        </div>
+        {brandLogoURL && (
+          <div className={style.brandLogo}>
+            <BBImage
+              imgCaption={brandTitle}
+              imgSource={brandLogoURL}
+              type='regular'
+            />
+          </div>
+        )}
         <div className={style.brandTitle}>{brandTitle}</div>
       </div>
       <ul className={style['navbar-menu']}>
         <li>
-          <Button
-            onClick={() => navigate('/login')}
-            size='medium'
-            variant='primary'
-          >
+          <Button onClick={onLoginClick} size='medium' variant='primary'>
             Log in
           </Button>
         </li>
         <li>
-          <Button
-            onClick={() => navigate('/signup')}
-            size='medium'
-            variant='inverse'
-          >
+          <Button onClick={onSignUpClick} size='medium' variant='inverse'>
             Sign up
           </Button>
         </li>
